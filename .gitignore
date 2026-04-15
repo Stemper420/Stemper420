@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+.venv310/
+
+build/
+dist/
+
+_review_tmp/
+_remote_check/
+registry-backup-2026-04-15/
+plugins/
+
+*.log

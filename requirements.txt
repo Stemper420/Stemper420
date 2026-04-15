@@ -1,0 +1,2 @@
+requests>=2.32.5,<3
+hue-entertainment-pykit>=0.9.4,<1

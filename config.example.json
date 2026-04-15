@@ -1,0 +1,24 @@
+{
+  "hue": {
+    "bridge_ip": "192.168.1.100",
+    "username": "PUT_USERNAME_HERE",
+    "clientkey": "PUT_CLIENTKEY_HERE",
+    "entertainment_area_id": "PUT_AREA_ID_HERE"
+  },
+  "artnet": {
+    "bind": "0.0.0.0",
+    "port": 6454
+  },
+  "stream": {
+    "fps": 20,
+    "change_threshold": 0,
+    "color_space": "rgb"
+  },
+  "mapping": {
+    "type": "sequential_rgb",
+    "port_address_start": 0,
+    "dmx_start": 1,
+    "channel_order": "RGB",
+    "channels": [0, 1, 2, 3]
+  }
+}
